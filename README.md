@@ -9,7 +9,6 @@ The goal of this project is to **automatically extract property data** from the 
 
 **Libraries Used**
 
-- **Python 3.13**
 - **Playwright** – for controlling a headless/visible browser to navigate and interact with web pages.
 - **BeautifulSoup** – for parsing HTML and extracting data.
 - **CSV** – for saving structured output.
