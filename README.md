@@ -7,7 +7,7 @@ The goal of this project is to **automatically extract property data** from the 
 
 ---
 
-## **Technologies & Libraries Used**
+**Libraries Used**
 
 - **Python 3.13**
 - **[Playwright]** – for controlling a headless/visible browser to navigate and interact with web pages.
@@ -15,7 +15,8 @@ The goal of this project is to **automatically extract property data** from the 
 - **CSV** – for saving structured output.
 - **Random & Time** – for simulating human-like behavior (scrolling and delays) to prevent being blocked.
 
-**Logic behind the scraper:**
+
+**How it works:**
 
 - Launches a visible Chromium browser for **better debugging**.
 - Visits each page of rental listings and collects links to individual properties.
@@ -28,7 +29,10 @@ The goal of this project is to **automatically extract property data** from the 
 ## **Installation & Usage**
 
 1. **Clone the repository**:
-
 ```bash
 git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
-cd Aurodas-WebScraper
+```
+2. **Enter the repo folder**:
+```bash
+git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
+```
