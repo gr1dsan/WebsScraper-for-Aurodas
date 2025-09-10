@@ -10,8 +10,8 @@ The goal of this project is to **automatically extract property data** from the 
 **Libraries Used**
 
 - **Python 3.13**
-- **[Playwright]** – for controlling a headless/visible browser to navigate and interact with web pages.
-- **[BeautifulSoup]** – for parsing HTML and extracting data.
+- **Playwright** – for controlling a headless/visible browser to navigate and interact with web pages.
+- **BeautifulSoup** – for parsing HTML and extracting data.
 - **CSV** – for saving structured output.
 - **Random & Time** – for simulating human-like behavior (scrolling and delays) to prevent being blocked.
 
@@ -34,5 +34,27 @@ git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
 ```
 2. **Enter the repo folder**:
 ```bash
-git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
+cd WebsScraper-for-Aurodas
+```
+3. **Set up your virtual enviroment**:
+for Mac/Linux:
+```bash
+python3 venv env
+
+source env/bin/activate
+```
+
+for Windows:
+```bash
+python -m venv env
+
+.\env\Scripts\activate
+```
+4. **Install all dependencies**:
+```bash
+pip install -r requirements.txt
+```
+5. **Run the program**:
+```bash
+python app.py
 ```
