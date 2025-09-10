@@ -1,20 +1,9 @@
 # **Aurodas Web Scraper**
 
-A **web scraper** for rental listings from [Aruodas](https://en.aruodas.lt/butu-nuoma/kaune/), built using **Python**, **Playwright**, and **BeautifulSoup**.  
+A **web scraper** for rental listings from [Aruodas.lt](https://en.aruodas.lt/butu-nuoma/kaune/), built using **Python**, **Playwright**, and **BeautifulSoup**.  
 This project collects detailed property information, including prices, area, rooms, building details, and more, and saves it to a **CSV file**.
 
----
-
-## **Purpose**
-
-The goal of this project is to **automatically extract property data** from the Aruodas website for analysis or record-keeping.  
-It is designed to:
-
-- Gather rental listings for Kaunas
-- Extract structured information (prices, area, rooms, heating, crimes, etc.)
-- Save results into a CSV file for further processing
-
-This tool is also useful for **learning web scraping with Playwright** and handling websites that require **browser interactions**.
+The goal of this project is to **automatically extract property data** from the Aruodas website for analysis or record-keeping. This tool is also useful for **learning web scraping with Playwright** and handling websites that require **browser interactions**.
 
 ---
 
