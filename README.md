@@ -30,5 +30,5 @@ The goal of this project is to **automatically extract property data** from the 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/gr1dsan/Aurodas-WebScraper.git
+git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
 cd Aurodas-WebScraper
