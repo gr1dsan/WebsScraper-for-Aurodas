@@ -38,17 +38,19 @@ cd WebsScraper-for-Aurodas
 ```
 3. **Set up your virtual enviroment**:
 
- for Mac/Linux:
+#### For Mac/Linux:
 ```bash
 python3 venv env
-
+```
+```bash
 source env/bin/activate
 ```
 
- for Windows:
+#### For Windows:
 ```bash
 python -m venv env
-
+```
+```bash
 .\env\Scripts\activate
 ```
 4. **Install all dependencies**:
