@@ -37,14 +37,15 @@ git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
 cd WebsScraper-for-Aurodas
 ```
 3. **Set up your virtual enviroment**:
-for Mac/Linux:
+
+ for Mac/Linux:
 ```bash
 python3 venv env
 
 source env/bin/activate
 ```
 
-for Windows:
+ for Windows:
 ```bash
 python -m venv env
 
