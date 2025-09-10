@@ -3,7 +3,7 @@
 A **web scraper** for rental listings from [Aruodas.lt](https://en.aruodas.lt/butu-nuoma/kaune/), built using **Python**, **Playwright**, and **BeautifulSoup**.  
 This project collects detailed property information, including prices, area, rooms, building details, and more, and saves it to a **CSV file**.
 
-The goal of this project is to **automatically extract property data** from the Aruodas website for analysis or record-keeping. This tool is also useful for **learning web scraping with Playwright** and handling websites that require **browser interactions**.
+The goal of this project is to **automatically extract property data** from the Aruodas website for analysis or record-keeping and creation of beautiful projects. This tool is also useful for **learning web scraping with Playwright** and handling websites that require **browser interactions**.
 
 ---
 
@@ -32,27 +32,31 @@ The goal of this project is to **automatically extract property data** from the 
 ```bash
 git clone https://github.com/gr1dsan/WebsScraper-for-Aurodas.git
 ```
+
 2. **Enter the repo folder**:
 ```bash
 cd WebsScraper-for-Aurodas
 ```
+
 3. **Set up your virtual enviroment**:
 
-####    For Mac/Linux:
+For Mac/Linux:
 ```bash
 python3 venv env
 source env/bin/activate
 ```
 
-#### For Windows:
+For Windows:
 ```bash
 python -m venv env
 .\env\Scripts\activate
 ```
+
 4. **Install all dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
+
 5. **Run the program**:
 ```bash
 python app.py
